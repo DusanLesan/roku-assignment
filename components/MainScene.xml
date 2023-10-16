@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainScene" extends="Scene">
+	<script type="text/brightscript" uri="MainScene.brs"/>
+
+	<children>
+		<Video
+			id="testVideo"
+			width="1280"
+			height="720"
+			translation="[0,0]"
+		/>
+
+		<Rectangle
+			id="testRect"
+			color="0x2B008FF0"
+			width="1230"
+			height="670"
+			translation="[0,0]"
+		/>
+	</children>
+</component>
